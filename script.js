@@ -1,5 +1,5 @@
 console.log("Welcome To Spotify");
-
+console.log("maa ki chut tumahri");
 let songIndex = 0;
 let audioElement = new Audio("./Song/1.mp3");
 let masterPlay = document.getElementById("masterPlay");
