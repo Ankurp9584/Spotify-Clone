@@ -196,6 +196,8 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
         masterPlay.classList.add("fa-play-circle");
         gif.style.opacity = 0;
         playpause(songIndex);
+        document.querySelectorAll(".songItemPlay")[songIndex].classList.add('fa-play-circle');
+        document.querySelectorAll(".songItemPlay")[songIndex].classList.remove('fa-pause-circle');
       }
     });
   }
